@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+  font-family: "Nunito sans", sans-serif;
+}
+
+button {
+  border: 0;
+  outline: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus,
+input:focus,
+textarea:focus {
+  border: 0;
+  outline: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a, p{
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.no-pad {
+  padding: 0;
+}
+
+
+header .top-bar-section .top-right-section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 25px;
+}
+
+header .top-bar-section .top-right-section a {
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+header .top-bar-section {
+  background-color: #111111;
+  padding: 10px 0;
+}
+
+header .top-bar-section .top-left-section p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+ul.lagnuage-change-dropdown {
+  display: none;
+  transition: .5s all;
+}
+ul.lagnuage-change-dropdown a{
+  color: #111 !important; 
+  cursor: pointer;
+  font-size: 13px;
+  padding: 2px 15px;
+
+}
+
+ul.language-change-selector:hover .lagnuage-change-dropdown {
+  display: block;
+  z-index: 3;
+  position: absolute;
+  background-color: #ffffff;
+  padding: 2px 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: .5s all;
+}
+
+ul.language-change-selector {
+  margin: 0;
+  position: relative;
+}
+
+header .main-haader-section {
+  padding: 30px 0;
+}
+
+.header-main-menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 45px;
+  margin: 0;
+}
+
+.header-main-menu ul a {
+  color: #111;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.header-right-icons ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 26px;
+  margin: 0;
+}
+
+.header-right-icons ul li {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+footer{
+  padding: 70px 0 0 0;
+  background-color: #111; 
+  bottom: 0;
+}
